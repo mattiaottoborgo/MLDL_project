@@ -52,7 +52,7 @@ class CityScapes(Dataset):
             full_path = posixpath.join(path, entry)
             if os.path.isdir(full_path):
                 counter=self.generate_map_annotations(full_path,counter)
-            elif full_path.endswith("color.png"):
+            elif full_path.endswith("Ids.png"):
                 self.map_index_to_annotation[counter]=full_path
                 counter = counter+1
         return counter
