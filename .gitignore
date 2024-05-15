@@ -3,3 +3,4 @@
 *.pth
 debug_training_bisenet-Copy1.ipynb
 debug_training_bisenet.ipynb
+/datasets/GTA5.zip
